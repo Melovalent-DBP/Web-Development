@@ -1,0 +1,167 @@
+/*
+  Format:
+    selector {
+        property: value;
+    }
+*/
+
+#initial /* selector */
+{
+  color: rgb(0, 18, 5); 
+  /*color is property
+    rgb(0, 18, 5) is value
+  */
+
+}
+
+
+
+
+#mySelf
+{
+  background-color: rgb(0, 246, 86);
+  border: 4px solid rgb(0, 0, 0);
+  height: 100px;
+  width: 1000px;
+
+  font-family: 'Bungee Spice', sans-serif;  
+  /*font-family is the set of fonts , fonts can be added using ','*/
+  /* 'Bungee Spice', sans-serif  are the fonts imported by
+      <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+  */
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+/*Here We discuss about font-size , 
+                      
+           line-height 
+           //em = ফন্ট সাইজের কতগুণ হবে
+           //here line-height = 2.3 * 20px = 46px,
+                     
+           font-weight
+          //Boldness of the font
+          
+          letter-spacing
+          //space between two letters
+          
+*/
+
+/* Some text properties
+
+
+#initial
+{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  line-height: 2.0em; 
+  letter-spacing: 5px;
+  /*line-height is the space between two lines*/
+  /*em = ফন্ট সাইজের কতগুণ হবে
+  here line-height = 2.3 * 20px = 46px
+  */
+  /*
+  font-weight:bold;
+}
+*/
+
+
+
+#myInfo{
+  font-family: 'Nabla', system-ui;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(39, 93, 202);
+  background-image: url('myself.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 170px;
+  width: 500px;
+  /* It is the height and width of the background box*/
+  /*including the text*/
+}
+
+/*Here we discuss about border*/
+/*border-style:solid measures the border of the box*/
+/*border-width:5px measures the width of the border*/
+/*border-radius:30px measures the roundness of the border*/
+/*We can combine border-width , border-style and border-color
+  using border:5px solid red;
+*/ 
+/* border-top . border-bottom , border-left , border-right
+   are used to change specific portion the border of the box.
+   // border-top:5px solid red// means the top border of the box will be 5px solid red
+*/
+
+/*
+  border-top-right-radius:30px;
+  উপরের ডান পাশের কোণ গুলো রাউন্ড করবে 30px এর মতো।
+  */
+#Video
+{
+  height: 599px;
+  width: 900px;
+}
+
+
+#school
+{
+  font-family: 'Single Day', cursive;
+  font-size: 40px;
+  color: rgb(255, 22, 22);
+  text-align: center;
+  background-color: rgb(192, 254, 6);
+  height: 80px;
+  width: 400px;
+  /*
+  border-width: 4px;
+  border-style: dotted;
+  border-color: rgb(232, 83, 14);
+  */
+  border: 4px dotted rgb(232, 83, 14);
+  /*border-radius: 30px;*/
+
+  border-top: 4px dotted rgb(0, 38, 255);
+  border-bottom: 4px dotted rgb(196, 166, 0)
+  border-left: 4px dotted rgb(247, 23, 60)
+  border-right: 4px dotted rgb(115, 96, 96);
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+/*Autoplay can't be used in css 
+  it can be achieved in html
+  controls autoplay
+*/
+
+/*CSS Backgrounds
+
+    background-image: url('image-url');
+    background-size: cover;
+
+
+
+Background repeat helps to control how the image will repeat.
+
+      background-repeat: no-repeat; 
+//no-repeat means the image will not be repeated
+    
+    background-repeat: repeat-x;
+//repeat-x means the image will be repeated in x axis
+    
+    background-repeat: repeat-y;
+//repeat-y means the image will be repeated in y axis
+    
+background-repeat: repeat;
+//repeat means the image will be repeated in both x and y axis
+
+
+
+/*Here We discuss about font fanily and font-style*/
+
+
+

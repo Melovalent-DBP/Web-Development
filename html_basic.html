@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="This is an example of a meta description. This will often show up in search results.">
+    <!-- <title> It gives title of a page-->
+    <title>Document</title>
+    <title>HTML Basic</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <img src="semantic.png" height="500px" width="1000px" alt="Semantic Tags">
+
+    <!-- Inline css property-->
+    <!-- <tag style = "property: value"> </tag>
+    ///For example: <p style = "color:red; background-color:yellow;"> </p>
+    /// <style>
+    ///     p{
+    ///         color:red;
+    ///         background-color:yellow;
+    ///     }
+    /// </style>
+    -->
+    
+    <!-- h1 to h6 are heading tags , h1 is the largest-->
+    <!-- size of h tag decreases as number increases  -->
+
+    <!-- u tag is used to underline-->
+    <h1 id="mySelf" style="color:rgb(0, 0, 0); background-color:rgb(134, 253, 6);"><em><u>Myself</u></em></h1>
+   <!--
+    <h2>Myself</h2>
+    <h3>Myself</h3>
+    <h4>Myself</h4>
+   -->
+
+    <!--<a href="Link">Click here</a> is used to create a link-->
+    <!-- link in new tab 
+        attribute:  target = "blank"
+         <a href="Link" target="blank">Click here</a>
+    -->
+
+    <!-- img src="path"
+             alt="Error loading image"-->
+    <!-- Image is not present , hence alt text is shown-->
+    <!-- alt text is used for screen readers-->
+
+    <p id="initial">My name is <em>Adriyan Barua Nihon.</em>I am a student.
+        <strong>I read in Saint Placid School & College.</strong>
+        <a href="https://stplacid.edu.bd/" target="blank"><br>
+            <div id="school">
+                <em>Go to my school</em>
+            </div>
+        </a>
+        <br><br>
+        <img src="Placid.jpg" alt="sorry">
+        <br><br>
+    </p>
+
+    <!--Adding Video to html-->
+    <!-- 
+        <video src="path" width="500px" height="500px" controls></video>
+        controls = controls the video
+        autoplay = autoplay the video
+        loop = loop the video
+        poster = image shown before video loads
+        muted = muted the video by default
+    -->
+
+    <!-- Adding Audio to html
+        <audio src="path" controls></audio>
+        controls = controls the audio
+        autoplay = autoplay the audio
+        loop = loop the audio
+        muted = muted the audio by default    
+    -->
+    <span><video id="Video" src="jk.webm"  controls poster="nanami.jpg" muted></video></span>
+    <span><audio id="Audio" src="epic.mp3" controls loop></audio></span>
+        <!-- p*100 = 100 paragraph-->
+        <!-- p* 4 means-->
+        <!-- <p>..</p>-->
+        <!-- <p>..</p>-->
+        <!-- <p>..</p>-->
+        <!-- <p>..</p>-->
+
+
+        <!-- list in html-->
+        <!-- ul = unordered list-->
+        <!-- ol = ordered list-->
+        <!-- li = list item-->
+        <!--
+    <ul> or <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul> or </ol>
+    -->
+        <!-- ordered list types <ol type="1">
+        Type	    Description
+        type="1"	The list items will be numbered with numbers (default)
+        type="A"	The list items will be numbered with uppercase letters
+        type="a"	The list items will be numbered with lowercase letters
+        type="I"	The list items will be numbered with uppercase roman numbers
+        type="i"	The list items will be numbered with lowercase roman numbers
+    -->
+        <!-- unordered list types <ul type="square">
+        Type	        Description
+        type="disc"	    The list items will be marked with bullets (default)
+        type="circle"	The list items will be marked with circles
+        type="square"	The list items will be marked with squares
+    -->
+
+    <div id="myInfo" class="RedBg BlackBg">
+        <u><b>Well,to define myself:</b></u>
+    <ul type="square">
+        <li><i>Firstly,</i></b> I am a very simple boy.</li>
+        <li><i>Secondly,</i></b> I try to be honest in every possible way</li>
+        <li><i>Thirdly,</i></b>I like playing football</li>
+
+        <!-- strong tag bolds a tag -->
+        <li><strong><i>Fourthly:</i></strong> I like painting</li>
+    </ul>
+    
+
+    <br>
+    <i><b>Painting mediums that I mastered</b></i>
+    <ol type="i">
+        <li>Poster color</li>
+        <li>Pastel color</li>
+        <li>Collage</li>
+    </ol>
+    <br>
+    <br>
+    </div>
+
+    <br>
+    <br>
+    <!-- table tag is used to create table
+    Format:
+    <table border = "1">
+        <thead>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+        </thead>
+          
+        <tbody>
+            <tr>           
+                <td>tableData</td>
+                <td>tableData</td>
+                <td>tableData</td>
+            //As there are 3 headings , there will be 3 table data
+            </tr>
+            <tr>
+                <td>TableData</td>
+                <td>TableData</td>
+                <td>TableData</td>
+            </tr>
+        </tbody>
+    </table>
+
+    //Rowspan and colspan are used to merge cells
+    //rowspan = "2" means 2 rows will be merged into 1 
+    //colspan = "2" means 2 columns will be merged into 1
+    <td rowspane = "2">TableData</td>
+    <td colspan = "2">TableData</td>
+    -->
+    <u><b><i>My class Routine</i></b></u>
+    <br><br>
+    <table border=5 width="1000px" height="50px">
+        <thead align="center ">
+            <tr>
+                <th>Day</th>
+                <th>8.30-9.00</th>
+                <th>9.00-9.30</th>
+                <th>9.30-10.00</th>
+                <th>10-10.30</th>
+                <th>Break</th>
+                <th>10.30-11.00</th>
+                <th>11.00-11.30</th>
+                <th>11.30-12.00</th>
+                <th>12.00-12.30</th>
+                <th>12.30-1.00</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>Sunday</td>
+                <td>Math</td>
+                <td>English_1st</td>
+                <td>Bangla_1st</td>
+                <td>English_2nd</td>
+                <td rowspan="10" align="center">
+                    <h2>L<br><br>U<br><br>N<br><br>C<br><br>H</h2>
+                </td>
+                <td>Bangla_2nd</td>
+                <td>English_2nd</td>
+                <td>Science</td>
+                <td>Social_Science</td>
+                <td>Buddhism</td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Math</td>
+                <td>English_1st</td>
+                <td>Bangla_1st</td>
+                <td>English_2nd</td>
+                <!-- other rows does not need rowspan as first row data combines 10 rows-->
+                <td>Bangla_2nd</td>
+                <td>English_2nd</td>
+                <td>Science</td>
+                <td>Social_Science</td>
+                <td>Buddhism</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Math</td>
+                <td>English_1st</td>
+                <td>Bangla_1st</td>
+                <td>English_2nd</td>
+                <td>Bangla_2nd</td>
+                <td>English_2nd</td>
+                <td>Science</td>
+                <td>Social_Science</td>
+                <td>Buddhism</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Math</td>
+                <td>English_1st</td>
+                <td>Bangla_1st</td>
+                <td>English_2nd</td>
+                <td>Bangla_2nd</td>
+                <td>English_2nd</td>
+                <td>Science</td>
+                <td>Social_Science</td>
+                <td>Buddhism</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Math</td>
+                <td>English_1st</td>
+                <td>Bangla_1st</td>
+                <td>English_2nd</td>
+                <td>Bangla_2nd</td>
+                <td>English_2nd</td>
+                <td>Science</td>
+                <td>Social_Science</td>
+                <td>Buddhism</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!-- Forms in html-->
+    <!--Format: 
+        <form action= “backend.php”>
+            <div>
+            <input type = “text” name = “username”>
+            </div>
+            <div>
+            <input type = "password" name = "password" placeholder = "Enter your password">
+            </div>
+            <div>
+            <input type = "date" name = "date">
+            </div>
+            <div>
+            <input tyep = "number" name = "number">
+            </div>
+            <div>
+            <input type = "checkbox" name = "checkbox" checked>
+             //checked means it will be checked by default
+            </div>
+            <div>
+            <input type = "radio" name = "radio">
+            </div>
+            <div>
+            <input type = "reset" name = "reset" value="Resest if you have error">
+            </div>
+            <div>
+            <input type = "submit" name = "submit" value="Submit Now">
+            </div>
+            <div>
+            <textarea name = "textarea" id = "textarea" cols = "30" rows = "10"></textarea>
+            </div>
+        </form>
+    //Points to remember:
+       // 1. action = "backend.php" means the data will be sent to backend.php
+       // 2. name = "username" means the the backend will get the data with the name "username"
+
+       //Shortcuts:
+       Inside div:
+          Name: input:text will automatically create a text box
+    -->
+
+    <!--
+        label tag is used to create label
+        select tag is used to create dropdown with options
+        <label for="car">Choose a car:</label>
+        <select name="myCar" id="car">
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+        </select>
+    
+        ///// select's id = label's for /////
+    -->
+    <h2><em>My Information Form</em></h2>
+    <form>
+        <div>
+            Name: <input type="text" name="myName" id="">
+        </div>
+        <br>
+        <div>
+            Father's Name: <input type="text" name="fatherName" id="">
+        </div>
+        <br>
+        <div>
+            Mother's Name: <input type="text" name="motherName" id="">
+        </div>
+        <br>
+        <div>
+            Date of Birth: <input type="date" name="birthDate" id="">
+        </div>
+        <br>
+        <div>
+            Contact No: <input type="number" name="myContact" id="">
+        </div>
+        <br>
+        <div>
+            Nationality: <input type="text" name="myNationality" id="">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail" id="">
+        </div>
+        <br>
+        <div>
+            Password: <input type="password" name="myPassword" id="" placeholder="Enter your Password">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender" id="" checked> Female <input type="radio" name="myGender"
+                id="">
+        </div>
+        <br>
+        <div>
+            <label for="FavPer">Favourite Personality</label>
+            <select name="myFavPer" id="FavPer">
+                <option value="Elon Mask">Elon Mask</option>
+                <option value="Bill Gates">Bill Gates</option>
+                <option value="Mark Zuckerberg">Mark Zuckerberg</option>
+                <option value="Jeff Bezos">Jeff Bezos</option>
+                <option value="Jack Ma">Jack Ma</option>
+                <option value="Steve Jobs">Steve Jobs</option>
+                <option value="Sundar Pichai">Sundar Pichai</option>
+                <option value="Mukesh Ambani">Mukesh Ambani</option>
+                <option value="Ratan Tata">Ratan Tata</option>
+                <option value="Ronaldo" checked>Ronaldo</option>
+                <option value="Messi">Messi</option>
+                <option value="Hero Alom">Hero Alom</option>
+                <option value="Jayed Khan">Jayed Khan</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Do you agree to our terms and conditions? <input type="checkbox" name="myCheckbox" id="">
+        </div>
+        <br>
+        <div>
+            Anything else:
+            <br>
+            <textarea name="myTextarea" id="" cols="30" rows="10"
+                placeholder="You can write more about yourself"></textarea>
+        </div>
+        <div>
+            <input type="reset" name="myReset" id="" value="Reset if Error">
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="mySubmit" id="" value="Submit Now">
+        </div>
+    </form>
+
+
+
+    <!-- Inline and Block Elements-->
+    <!-- Inline elements are elements that do not start in a new line-->
+    <!-- Block elements are elements that start in a new line-->
+    <!--Some block elements:
+        <div> <p> <h1> <h2> <h3> <h4> <h5> <h6> <ul> <ol> <li> <table> <form> <hr>
+    -->
+
+    <!-- IDS and class in html-->
+    <!-- ID is unique identifier for 1 element ,  Format: id = "myID"-->
+    <!-- Class is used to select multiple elements , format: class = "myClass myHome myDestiny"-->
+    <!-- class = "myClass myHome myDestiny" means the element has 3 classes-->
+    <!-- SHORTCUTS:
+        1. div#myID = id = <div id="myID">  , [# is for id]
+        2. span.myClass = class = <span class="myClass"> , [. is for class]
+        3. multiple similar class / id using emmet:
+
+        emmet takes div as default
+            myText*2
+                <div>myText</div>
+                <div>myText</div>
+            as default it takes div
+
+            
+            div#myText*4
+                <div id="myText"></div>
+                <div id="myText"></div>
+                <div id="myText"></div>
+                <div id="myText"></div>
+            
+            div.myText*4
+                <div class="myText"></div>
+                <div class="myText"></div>
+                <div class="myText"></div>
+                <div class="myText"></div>
+    -->
+
+
+    <!-- Semantic Tags: tags that have meaning-->
+    <!--
+    header tag is used to create header; <header> </header>
+    footer tag is used to create footer; <footer> </footer>
+    nav tag is used to create navigation bar; <nav> </nav>
+    main tag is used to create main content; <main> </main>
+    section tag is used to create section; <section> </section>
+    article tag is used to create article; <article> </article>
+    aside tag is used to create aside; <aside> </aside>
+    figure tag is used to create figure; <figure> </figure>
+    figcaption tag is used to create figcaption; <figcaption> </figcaption>
+    details tag is used to create details; <details> </details>
+    summary tag is used to create summary; <summary> </summary>
+-->
+
+    <h2><u>About My school</u></h2>
+    <details>
+        <ul type="circle">
+            <li>
+                <h3>Founded in 1853:</h3>
+                <summary>
+                    The school was founded by the Anglo-Belgian Benedictines and is one of the oldest educational
+                    institutions in Bangladesh.
+                </summary>
+                <img src="Placid2.jpg" alt="sorry">
+            </li>
+            <li>
+                <h3>Catholic school:</h3>
+                <summary>
+                    It is a Catholic school run by the Congregation of Holy Cross.
+                </summary>
+            </li>
+            <li>
+                <h3>Location:</h3>
+                <summary>
+                    It is located at Pathorghata in Chittagong, Bangladesh.
+                </summary>
+            </li>
+            <li>
+                <h3>Students:</h3>
+                <summary>
+                    As of 2024, it had more than 3300 students.
+                </summary>
+            </li>
+            <li>
+                <h3>Teachers:</h3>
+                <summary>
+                    It has more than 100 teachers.
+                </summary>
+            </li>
+            <li>
+                <h3>Faculty:</h3>
+                <summary>
+                    It has a faculty of 68 teachers.
+                </summary>
+            </li>
+            <li>
+                <h3>Academics:</h3>
+                <summary>
+                    The school offers a variety of academic programs,&nbsp;<br> including primary, secondary, and higher secondary education.
+                </summary>
+            </li>
+            <li>
+                <h3>Extracurricular activities: </h3>
+                <summary>
+                    The school also offers a variety of extracurricular activities,such as sports, clubs, and societies.
+                </summary>
+            </li>
+            <li>
+                <h3>Motto: </h3>
+                <summary>
+                    The school's motto is "Truth, Service, and Sacrifice.
+                </summary>
+            </li>
+
+
+        </ul>
+    </details>
+
+
+
+    <br>
+    <div id="myResidence" class="RedBg BlackBg">
+
+    <u>
+        <h2>My Residence status</h2>
+    </u>
+    <span> I live at Pathorghata</span> <span> in Chittagong</span>
+    <!-- paragraph tag is used to create block element-->
+    <p>My village is situated at Shilok.</p>
+    <p>I don't get the opportunity much to go to my village a lot due to academic pressure.</p>
+    </div> <br><br>
+
+    <p>This is Denesh</p> <!-- Denesh is not printed with space-->
+    <!-- html entities
+        &nbsp; = non breaking space
+        &copy; = ©  copyright
+        &reg; = ® registered
+        &trade; = ™ trademark
+        &lt; = < less than
+        &gt; = > greater than
+        &cent; = ¢ cent
+        &pound; = £ pound
+        &yen; = ¥ yen
+        &euro; = € euro
+        &sect; = § section
+        &#36; = $ dollar
+        &#2547; = ৳ taka
+        &Rarr; = → right arrow
+        &lArr; = ← left arrow
+    
+        //VVI::  &#8203; = zero width space
+        //VVI::  &frac12; = ½ half    
+    //Others: 
+    https://www.w3schools.com/charsets/ref_html_symbols.asp
+
+    -->
+
+
+
+    <br>
+    <p> Here I am.... &rArr;&nbsp; &nbsp; Denesh Barua Pantho&nbsp;&nbsp;&lArr;, his Uncle &reg;<b>বাপের হোটেল</b>.
+        <br>
+        Who doesn't earn a single &#2547; , let alone &frac12; dollar &#36; / penny &cent; / pound &pound; or Yen &yen;
+        &#8203;
+    </p>
+
+
+
+
+
+
+    <br>
+    <br>
+    <!--Paragraph does not count space-->
+    <p>This is a line
+
+
+        This is another line.
+    </p>
+
+    <!-- br tag is used to break line-->
+    <!-- br does not need closing-->
+    <!-- br is used for new line-->
+    <p>This is a line.<br>This is another line</p>
+
+    <!-- hr tag is used to draw a line-->
+    <h1>my name</h1>
+    <hr>
+
+
+    <p>
+        fgfdgds dfgsdfg.<strong>dgthtfgwec fgg.</strong><br><em>roseddgfd ggfgfd</em>
+    </p>
+
+
+    <h2>sfdfls</h2>
+    <hr>
+    <p>dsflsdnflsd.<b>fdsfas</b> sdfsd.<strong>sdfs</strong></p>
+
+</body>
+
+</html>
