@@ -1,0 +1,19 @@
+div{
+    background-color: rgb(57, 252, 47) ;
+  }
+  #Form{
+    background-color: rgb(226, 0, 0);
+  }
+  /*form does not take inherit from div because it is not a child of div*/
+  /*So the Soln will be:::*/
+  input {
+    background-color: inherit;
+  }
+  /*Button does not take inherit from div because it is not a child of div*/
+  /*So the Soln will be:::*/
+  button{
+    background-color: inherit;
+  }
+  #head{
+    color: rgb(93, 4, 226);
+  }

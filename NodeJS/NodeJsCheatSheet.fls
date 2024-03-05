@@ -1,0 +1,4 @@
+PWD i:\Web Development\NodeJS
+INPUT C:\Users\panth\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT i:\Web Development\NodeJS\NodeJsCheatSheet.tex
+OUTPUT NodeJsCheatSheet.log

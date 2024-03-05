@@ -2,3 +2,6 @@
 
 //sigma web development course
 https://www.youtube.com/watch?v=aFicd4-YTfo&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=20
+
+//Remote git
+https://www.youtube.com/watch?v=Thx5yerhlhs&list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi&index=13

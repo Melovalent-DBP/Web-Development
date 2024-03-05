@@ -1,0 +1,16 @@
+.MyCard_Container{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    //Her
+}
+.Nabbar{
+    background-color: #4aea00  !important; /*Here !impotant is used to override the bootstrap default color*/
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
