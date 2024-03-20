@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30 px;
+        }
+        .first{
+            grid-column: span 2;
+        }
+        .card{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid Class</h1>
+        <div class="grid-container">
+            <div class = "firstClass">Hi</div>
+            <div class = "card">I am Denesh</div>
+            <div class = "card">You?</div>
+        </div>
+</body>
+</html>

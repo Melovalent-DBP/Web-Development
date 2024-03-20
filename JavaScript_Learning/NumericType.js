@@ -27,4 +27,37 @@ var total = num4 + num5
 total = total.toFixed(5)
 console.log(total)
 
+//Power Opertors
+// **/	    
+//m* / % (Feom left to Right)
+//+ - (From Left to right)
 
+console.log(3 ** 2.4) ;
+
+
+//Loose Equality Operator ==
+//Does not focus on type
+let age = 22 ;
+console.log(age == 22) 
+
+//Strict Equality Operator ===
+//Focus on type
+console.log(age === 22) ;
+
+
+//Type Conversion
+
+//Format:: Number(varname) / String(varname) / Boolean(varname)
+console.log("Type Conversion \n Format -- Number(varname) / String(varname) / Boolean(varname) \n")
+let score = "22" ;
+let Converted = Number(score) ;
+console.log(Converted , typeof Converted) ;
+
+
+let score2 = 22 ;
+let Converted2 = String(score2) ;
+console.log(Converted2 , typeof Converted2) ;
+
+let score3 = "" ;
+let Converted3 = Boolean(score3) ;
+console.log(Converted3 , typeof Converted3) ;

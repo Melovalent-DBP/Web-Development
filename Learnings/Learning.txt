@@ -1,0 +1,44 @@
+#Autohtml
+!
+Border to Border => Margin
+Margin is outside the border
+
+Inheritance 
+<div>
+<p>
+<u>
+</u>
+</p>
+</div>
+
+Here by changing back-color
+div{
+background-color: red
+}
+All p and ul will take red color of the ancestor div.
+Button doesn't take inheritance
+Soln
+input{
+background-color: inherit
+}
+
+
+To use global selector
+*{
+font-family: ansmmsms
+}
+Flex
+To arrange items side by side
+MAIN
+Not div, used to focus main contents of a landing page
+To make an image to the main.box
+<main>
+<div class="flex item-center">
+<img.........>
+</div>
+</main>
+মানে ঐ ছবিটা একটা ডিভের ভিতরে হবে, আর মূল বক্সে কন্টেন্ট সেন্টার হবে।  আর ছবিটা একেবারে বামে নিতে মেইনে justify-content:space-around দিবে, এটা প্রোপার স্পেসিং আনে।
+
+font-bold
+text-sm, lg,  xl,2xl,3xl....
+fons- font-s related all

@@ -36,15 +36,25 @@ console.log('Printing specific portion (index 3 to upto 7) : ' + sliced_array);
 
 arr.splice(0,4);
 console.log('Removing first 4 elements : ' + arr) ;
-
-
+/
 
 
 //Splicing specific index
 // arr.splice(2,1); //splice(index,how many element)
 var arr = ['DBP' , 'Rafi' , 'Dolon' , 'Nizami' , 'Nino']
 var part  = arr.splice(2,2) //SPlicing two element  from index 2
-console.log(part)
+console.log(part+ '\n')
 
 
-//
+//Join Mehthod [VVI]: It will join the array elements with the given string
+console.log(arr.join(' ')) ;
+let Joined = arr.join('$') ;
+console.log(Joined) ;
+
+//Concatenation of two arrays
+//Format: array1.concat(array2)
+var dishess = ['Biryani' , 'Kacchi' , 'Burger' , 'Pizza'] ;
+var dishes2 = ['Ice Cream' , 'Biscuit' , 'Cake' , 'Pastry'] ;
+console.log(dishess.concat(dishes2)) ;
+dishes2.push('sprite');
+console.log(dishes2) ; 

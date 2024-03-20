@@ -27,3 +27,8 @@ function factorial(n,r)
 }
 
 console.log(factorial(5,3)) ;
+
+let Invitation = function(name){
+    console.log(`Welcome! ${name} , You are invited on our event`);
+}
+Invitation("Denesh") ;
